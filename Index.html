@@ -7,7 +7,6 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             margin: 0;
             padding: 0;
             background-color: #f8f8f8;
@@ -16,16 +15,33 @@
             background-color: #4CAF50;
             color: white;
             padding: 20px;
+            text-align: center;
             font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #575757;
         }
         section {
             padding: 20px;
+            text-align: center;
         }
         footer {
             background-color: #333;
             color: white;
             padding: 10px;
-            position: fixed;
+            text-align: center;
+            position: relative;
             bottom: 0;
             width: 100%;
         }
@@ -44,10 +60,28 @@
     <header>
         Welcome to Our Quail Farm
     </header>
-    <section>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Our Products</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="home">
         <h2>Fresh Quail Eggs & Healthy Livestock</h2>
         <p>Providing high-quality quail products to farmers and consumers.</p>
-        <a href="#contact" class="btn">Contact Us</a>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a dedicated quail farm providing fresh eggs, meat, and breeding stock to farmers and customers.</p>
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <p>We offer quail eggs, live quails, and farm equipment for quail farming.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@quailfarm.com</p>
+        <p>Phone: +27 123 456 789</p>
     </section>
     <footer>
         &copy; 2025 Quail Farm | All Rights Reserved
