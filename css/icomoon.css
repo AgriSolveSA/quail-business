@@ -361,7 +361,18 @@
   content: "\f06b";
 }
 .icon-leaf:before {
-  content: "\f06c";
+  content: "\1f411";
+}
+.icon-bee:before {
+  content: "\1f413 \1f331"; /* Replace with correct Unicode if needed */
+}
+
+.icon-horse:before {
+  content: "\1F41D \1F36F \1F40E"; /* Replace with correct Unicode if needed */
+}
+
+.icon-shop:before {
+  content: "\1F3EA \1F969 \1F9F5 \1F95B"; /* Replace with correct Unicode if needed */
 }
 .icon-fire:before {
   content: "\f06d";
@@ -4427,9 +4438,6 @@
 }
 .icon-share2:before {
   content: "\e80d";
-}
-.icon-shop:before {
-  content: "\e8c9";
 }
 .icon-shop_two:before {
   content: "\e8ca";
